@@ -10,7 +10,6 @@ import { MdOutlineClose } from "react-icons/md";
 import useWindowSize from "../../utils/windowSize";
 import { IconContext } from "react-icons";
 import { useActiveAccount, useWalletBalance } from "thirdweb/react";
-import "../../styles/NavbarMock.css";
 
 const Navbar = () => {
   const [click, setClick] = React.useState(false);
