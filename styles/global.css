@@ -24,7 +24,7 @@ body{
     right: 0;
     bottom: 0;
     z-index: -1; /* Place the pseudo-element behind the content */
-    background-image: url(/overallBg.png);
+    background-image: url(../assets/Images/overallBg.png);
     background-repeat: no-repeat;
     background-position: top;
     /* background-size: 100% auto; */
