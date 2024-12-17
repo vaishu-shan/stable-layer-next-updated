@@ -38,7 +38,7 @@ export const getTokenBalance = async (
     walletAddress: any
 ) => {
     try {
-        if (typeof window.ethereum !== "undefined") {
+         if (typeof window !== "undefined" && window.ethereum) {
             await window.ethereum.request({ method: 'eth_requestAccounts' });
 
             const web3 = new Web3(window.ethereum);
