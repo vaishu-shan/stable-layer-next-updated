@@ -13,7 +13,7 @@ const DashCustodian = () => {
 
             <div className='cust-attd'>
                 <div className='cust-block'>
-                    <div>
+                    <div className='cust-head'>
                         <div className='ena-head'>Custodian </div>
                         <div className='ena-desc'>Last Updated: 6 Dec 24 10:30</div>
                     </div>

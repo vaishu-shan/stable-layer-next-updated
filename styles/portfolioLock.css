@@ -67,3 +67,20 @@ width: 28%;
     border-top-left-radius: 0.5rem;
     border-top-right-radius: 0.5rem;
   }
+
+  @media screen and (max-width:957px){
+    .lock-container{
+      width: 91%;
+      margin-left: 0;
+      margin-right: 0;
+      padding: 1rem;
+    }
+    .tab-list-lock-active,.tab-list-lock{
+      width: 60px;
+    }
+    .sena-conatiner {
+      width: 90%!important;
+      margin-left: 0!important;
+      padding: 1rem!important;
+    }
+  }

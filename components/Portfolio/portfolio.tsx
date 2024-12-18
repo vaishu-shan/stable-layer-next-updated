@@ -158,7 +158,7 @@ const PortfolioScreen = () => {
                     <div className='portfolio-stake-sec'>
                         <div className='portfolio-stake-banner'>
                             <div className='layout-background-image ' style={{ padding: '1.5rem', borderRadius: 7 }}>
-                                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+                                <div  className='stake-ena-banner'> 
                                     <div>Stake ENA to begin earning boosted rewards on non-ENA positions</div>
                                     <div className='stake-ena-cta'>Stake ENA</div>
                                 </div>
